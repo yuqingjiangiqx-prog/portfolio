@@ -272,7 +272,7 @@ function Hero({ activeTitle, setActiveTitle }) {
               <p className="text-xs font-semibold text-stone-500">运营经验</p>
             </div>
             <div className="aspect-[4/5] w-full overflow-hidden rounded-full bg-[#efe7d8] shadow-[0_30px_120px_rgba(28,25,23,0.16)]">
-              <img className="h-full w-full object-cover object-center" src="/profile-lifestyle-oval.png" alt="姜雨晴生活化职业照片" />
+              <img className="h-full w-full object-cover object-center" src="./profile-lifestyle-oval.png" alt="姜雨晴生活化职业照片" />
             </div>
             <div className="absolute -bottom-7 right-5 z-10 w-64 rounded-lg border border-stone-950/8 bg-white/86 p-5 shadow-[0_24px_80px_rgba(28,25,23,0.13)] backdrop-blur-xl">
               <p className="text-sm font-semibold text-stone-500">我关注的不是热闹</p>
