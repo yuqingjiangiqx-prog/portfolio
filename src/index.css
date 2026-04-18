@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #17201f;
+  background: #f7faf6;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    linear-gradient(180deg, rgba(223, 244, 234, 0.72) 0%, rgba(247, 250, 246, 0) 35%),
+    #f7faf6;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::selection {
+  color: #17201f;
+  background: #ffd166;
+}
+
+@layer components {
+  .section-shell {
+    @apply mx-auto w-full max-w-7xl px-5 sm:px-6 lg:px-8;
+  }
+
+  .section-kicker {
+    @apply mb-3 inline-flex items-center rounded-full border border-ink/10 bg-white px-3 py-1 text-sm font-semibold text-moss shadow-line;
+  }
+
+  .card {
+    @apply rounded-lg border border-ink/10 bg-white shadow-soft transition duration-300;
+  }
+
+  .card-hover {
+    @apply hover:-translate-y-1 hover:border-moss/25 hover:shadow-soft;
+  }
+}
